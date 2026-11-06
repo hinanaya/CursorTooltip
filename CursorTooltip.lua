@@ -1,3 +1,4 @@
-hooksecurefunc("GameTooltip_SetDefaultAnchor", function(s,p)
-    s:SetOwner(p, "ANCHOR_CURSOR")
-end)
+local function OnSetDefaultAnchor(tooltip, parent)
+    tooltip:SetOwner(parent, "ANCHOR_CURSOR")
+end
+hooksecurefunc("GameTooltip_SetDefaultAnchor", OnSetDefaultAnchor)
