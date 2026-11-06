@@ -1,0 +1,4 @@
+## Interface: 110000
+## Title: Cursor Tooltip
+## Notes: Anchors HUD tooltip to mouse cursor
+CursorTooltip.lua
